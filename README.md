@@ -1,16 +1,24 @@
-# ana_sinifi
+# Ana Sınıfı Uygulaması
 
-A new Flutter project.
+**Ana Sınıfı**, öğretmenler, öğrenciler ve veliler için geliştirilmiş bir **Flutter** uygulamasıdır. Firebase entegrasyonu ile kullanıcı doğrulaması ve veri yönetimi sağlanmaktadır. **Provider** ile tema yönetimi sunar.
 
-## Getting Started
+## Özellikler
+- **Firebase Authentication** ile güvenli giriş ve kayıt
+- **Firestore** ile gerçek zamanlı veri yönetimi
+- **Provider** ile tema yönetimi (Light/Dark Mode)
+- Kolay kullanılabilir öğretmen, öğrenci ve veli panelleri
 
-This project is a starting point for a Flutter application.
+## Teknolojiler
+- **Flutter** (Dart)
+- **Firebase** (Auth, Firestore)
+- **Provider** (State Management)
+- **Material 3** (UI Design)
 
-A few resources to get you started if this is your first Flutter project:
+## Kurulum
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Projeyi bilgisayarınıza klonlayarak başlamak için aşağıdaki adımları izleyebilirsiniz:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Repo'yu Klonlayın:**
+   ```bash
+   git clone https://github.com/mserif21/ana_sinifi.git
+   cd ana_sinifi
