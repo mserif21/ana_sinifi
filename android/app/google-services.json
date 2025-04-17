@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143990812028",
+    "project_id": "anasinifi-19979",
+    "storage_bucket": "anasinifi-19979.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143990812028:android:0095fba04e612c2031c8f9",
+        "android_client_info": {
+          "package_name": "com.example.ana_sinifi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw4OB61fykPi2-xAvEGEMg4G4PDzoRBqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

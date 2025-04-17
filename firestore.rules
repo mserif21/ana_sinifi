@@ -1,0 +1,34 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Tüm koleksiyonlara tam erişim izni
+    match /{document=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Öğretmenler koleksiyonu
+    match /teachers/{teacherId} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Öğrenciler koleksiyonu
+    match /students/{studentId} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Veliler koleksiyonu
+    match /parents/{parentId} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Sınıflar koleksiyonu
+    match /classrooms/{classroomId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+} 
